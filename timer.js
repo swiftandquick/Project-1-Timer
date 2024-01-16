@@ -50,7 +50,7 @@ document.getElementById("restart").addEventListener("click", function() {
     window.clearTimeout(timeoutID);
     hour = 0; 
     minute = 0; 
-    second = 0; 
+    second = -1; 
     Update();
 });
 
